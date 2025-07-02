@@ -3,7 +3,7 @@ import { Url } from "@/model/Url"
 
 export async function GET(request, { params }) {
   try {
-    // Get the shortUrl from route params
+
     const shortUrl = await params.id
 
     await dbConnect()

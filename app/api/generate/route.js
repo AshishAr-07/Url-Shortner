@@ -10,7 +10,7 @@ export async function POST(request) {
 
     const url = await Url.create({
       shortUrl: shortUrl,
-      redirectUrl: body.url, // Fixed: was body.shortUrl, should be body.url
+      redirectUrl: body.url, 
       visitHistory: [],
     });
 
@@ -18,7 +18,7 @@ export async function POST(request) {
       return Response.json({
         success: true,
         shortUrl: shortUrl,
-        redirectUrl: body.url, // Fixed: was body.shortUrl, should be body.url
+        redirectUrl: body.url,
         message: "Short URL generated successfully",
       });
     } else {
