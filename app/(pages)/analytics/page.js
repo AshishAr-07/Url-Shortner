@@ -91,8 +91,8 @@ export default function Analytics() {
               URL Analytics
             </h1>
             <p className="text-xl text-gray-600 max-w-2xl mx-auto leading-relaxed">
-              Discover detailed insights and performance metrics for your shortened
-              URLs
+              Discover detailed insights and performance metrics for your
+              shortened URLs
             </p>
           </div>
 
@@ -377,7 +377,7 @@ export default function Analytics() {
                       No visits yet
                     </h4>
                     <p className="text-gray-500">
-                      This URL hasn't been clicked yet. Share it to start
+                      This URL hasn&apos;t been clicked yet. Share it to start
                       tracking visits!
                     </p>
                   </div>
